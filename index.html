@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animes webiste</title>
     <!-- Link to CSS-->
     <link rel="stylesheet" href="style.css">
+    <!-- link swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!--Fav Icon-->
     <link rel="shortcut icon" href="img/fav-icon.png" types="image/x-icon">
     <!-- Box Icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <header>
         <!--Nav bar-->
@@ -54,31 +58,269 @@
         </div>
     </header>
     <!-- Home -->
-     <section class="home container" id="home">
+    <section class="home container" id="home">
         <!-- Home Image -->
         <img src="img/demon-slayer-infinity-castle-movie.avif" alt="home-background" class="home-img">
         <!-- Home Text -->
-         <div class="home-text">
+        <div class="home-text">
             <h1 class="home-title">Demon Slayer</h1>
             <p>Season 4</p>
-            <a href="#" class="watch-btn">
+            <a href="https://youtu.be/wyiZWYMilgk?si=VTncs56HVtBAf30t" target="_blank" class="watch-btn">
                 <i class='bx bx-right-arrow'></i>
                 <span>Watch the trailer</span>
             </a>
-         </div>
-     </section>
-     <!-- Home End -->
-     <!-- Popular section start -->
-      <section class="popular container" id="popular">
+        </div>
+    </section>
+    <!-- Home End -->
+    <!-- Popular section start -->
+    <section class="popular container" id="popular">
+        <!-- heading -->
         <div class="heading">
             <h2 class="heading-title">Popular Animes</h2>
+            <!-- Swiper Buttons -->
+            <div class="swiper-btn">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
         </div>
-      </section>
-     <!-- Popular section end -->
+        <!-- Content -->
+        <div class="popular-content swiper">
+            <div class="swiper-wrapper">
 
+                <!-- Anime Box 1 -->
+                <div class="swiper-slide">
+                    <div class="anime-box">
+                        <img src="img/popular anime 1.webp" alt="popular-anime-1" class="anime-box-img">
+                        <div class="box-text">
+                            <h2 class="anime-title">Attack on titan: The Last Attack</h2>
+                            <span class="genre">Action / Dark fantasy / Post-apocalyptic</span>
+                            <a href="https://youtu.be/M_OauHnAFc8?si=uIRek9Vd9uV7evVS" target="_blank" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Anime Box 2 -->
+                <div class="swiper-slide">
+                    <div class="anime-box">
+                        <img src="img/popular-movie-2.jpg" alt="popular-anime-2" class="anime-box-img">
+                        <div class="box-text">
+                            <h2 class="anime-title">Dr. Stone : Science future</h2>
+                            <span class="genre">Action / Comedy</span><br>
+                            <a href="https://youtu.be/JxaJXnWDAN8?si=eK-s9jyvfGREbMnA" target="_blank" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Anime Box 3 -->
+                <div class="swiper-slide">
+                    <div class="anime-box">
+                        <img src="img/popular-movie-3.jpg" alt="popular-anime-3" class="anime-box-img">
+                        <div class="box-text">
+                            <h2 class="anime-title">Dragon Ball Z</h2>
+                            <span class="genre">Action / Comedy / Adventure</span>
+                            <a href="https://youtu.be/0wMBz2xdI_s?si=fPYY7ubuma4UR1Zl" target="_blank" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Anime Box 4 -->
+                <div class="swiper-slide">
+                    <div class="anime-box">
+                        <img src="img/popular-movie-4.jpg" alt="popular-anime-4" class="anime-box-img">
+                        <div class="box-text">
+                            <h2 class="anime-title">Haikyuu</h2>
+                            <span class="genre">Sport / Comedy / Drama</span>
+                            <a href="https://youtu.be/JOGp2c7-cKc?si=yBkkzQ_psVKIVPNT" target="_blank" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Anime Box 5 -->
+                <div class="swiper-slide">
+                    <div class="anime-box">
+                        <img src="img/popular-anime-5.jpg" alt="popular-anime-5" class="anime-box-img">
+                        <div class="box-text">
+                            <h2 class="anime-title">Solo Leveling</h2>
+                            <span class="genre">Action</span>
+                            <a href="https://youtu.be/bssSj4cKsrI?si=oXZQ2Q_Swf-h5lMt" target="_blank" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Anime Box 6 -->
+                <div class="swiper-slide">
+                    <div class="anime-box">
+                        <img src="img/popular-movie-6.jpg" alt="popular-anime-6" class="anime-box-img">
+                        <div class="box-text">
+                            <h2 class="anime-title">One Piece</h2>
+                            <span class="genre">Action / Comedy / Adventure</span>
+                            <a href="https://youtu.be/BG89ff1tjLU?si=K1WPlM6tT9Ce0A3p" target="_blank" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Anime Box 7 -->
+                <div class="swiper-slide">
+                    <div class="anime-box">
+                        <img src="img/popular-anime-7.jpg" alt="popular-anime-1" class="anime-box-img">
+                        <div class="box-text">
+                            <h2 class="anime-title">Tokyo Revenger</h2>
+                            <span class="genre">Action / Time travel / Drama</span>
+                            <a href="https://youtu.be/LVpiqOh-524?si=BUnj3H-7gvD85j7q" target="_blank" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Anime Box 8 -->
+                <div class="swiper-slide">
+                    <div class="anime-box">
+                        <img src="img/popular-movie-8.jpg" alt="popular-anime-8" class="anime-box-img">
+                        <div class="box-text">
+                            <h2 class="anime-title">Naruto</h2>
+                            <span class="genre">Action / Comdey </span>
+                            <a href="https://youtu.be/-G9BqkgZXRA?si=TexB1xeQ7Vi_qJQv" target="_blank" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+    </section>
+    <!-- Popular section end -->
 
+    <!--Anime Section start -->
+    <section class="anime container" id="anime">
+        <!-- heading -->
+        <div class="heading">
+            <h2 class="heading-title">Other Animes</h2>
+        </div>
+        <!-- Anime Content -->
+        <div class="anime-content">
+            <!-- Anime box 1 -->
+            <div class="anime-box">
+                <img src="img/anime-1.jpg" alt="anime-1" class="anime-box-img">
+                <div class="box-text">
+                    <h2 class="anime-title">Kaguya sama</h2>
+                    <span class="genre">Romance / Drama / Comedy</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Anime box 2 -->
+            <div class="anime-box">
+                <img src="img/anime-2.jpg" alt="anime-1" class="anime-box-img">
+                <div class="box-text">
+                    <h2 class="anime-title">Fullmetal alchemist brotherhood </h2>
+                    <span class="genre">Action / Dark fantasy</span>
+                    <a href="#" target="_blank" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Anime box 3 -->
+            <div class="anime-box">
+                <img src="img/anime-3.webp" alt="anime-1" class="anime-box-img">
+                <div class="box-text">
+                    <h2 class="anime-title">Noragami</h2>
+                    <span class="genre">Action / Comdey / Mystery</span>
+                    <a href="#" target="_blank" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Anime box 4 -->
+            <div class="anime-box">
+                <img src="img/anime-4.jpg" alt="anime-1" class="anime-box-img">
+                <div class="box-text">
+                    <h2 class="anime-title">Spy x family</h2>
+                    <span class="genre">Action / Comedy</span>
+                    <a href="#" target="_blank" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Anime box 5 -->
+            <div class="anime-box">
+                <img src="img/anime-5.jpg" alt="anime-1" class="anime-box-img">
+                <div class="box-text">
+                    <h2 class="anime-title">Tokyo ghoul</h2>
+                    <span class="genre">Action / Dark fantasy</span>
+                    <a href="#" target="_blank" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Anime box 6 -->
+            <div class="anime-box">
+                <img src="img/anime-6.jpg" alt="anime-1" class="anime-box-img">
+                <div class="box-text">
+                    <h2 class="anime-title">jujutsu kaisen</h2>
+                    <span class="genre">Action / fantasy</span>
+                    <a href="#" target="_blank" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Anime box 7 -->
+            <div class="anime-box">
+                <img src="img/anime-7.jpg" alt="anime-1" class="anime-box-img">
+                <div class="box-text">
+                    <h2 class="anime-title">Death note</h2>
+                    <span class="genre">Mystery</span>
+                    <a href="#" target="_blank" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Anime box 8 -->
+            <div class="anime-box">
+                <img src="img/anime-8.jpg" alt="anime-1" class="anime-box-img">
+                <div class="box-text">
+                    <h2 class="anime-title">Sword art online</h2>
+                    <span class="genre">Action / fantasy / Game</span>
+                    <a href="#" target="_blank" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Anime Section end -->
+
+    <!-- Next Page -->
+    <div class="next-page">
+        <a href="#" class="next-btn">Next Page</a>
+    </div>
+
+    <!-- Copyright -->
+     <div class="copyright">
+        <p>&#169;Sonakshi Yadav All Right Reserved</p>
+     </div>
+    
+    <!-- Link swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Link to js-->
-     <script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
