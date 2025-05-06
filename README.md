@@ -9,8 +9,9 @@ Key Features
 -Image slider for browsing anime posters
 -Clickable posters that open YouTube trailers in a new tab
 
+The live version of this project here:
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Deployed%20Here-brightgreen)](https://sonakshi111.github.io/Anime-webpage/)
+
 Preview:
 ![Anime-website](https://github.com/user-attachments/assets/fd8caed4-78e9-48cf-8255-d451e80d32e9)
 
-The live version of this project here:
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Deployed%20Here-brightgreen)](https://sonakshi111.github.io/Anime-webpage/)
